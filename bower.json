@@ -1,0 +1,22 @@
+{
+  "name": "jeduardo5.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jeduardo5/jeduardo5.github.io",
+  "description": "first github pages",
+  "main": "index.html",
+  "authors": [
+    "James E. Jackson"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.5.8",
+    "bootstrap": "~3.3.7"
+  }
+}
