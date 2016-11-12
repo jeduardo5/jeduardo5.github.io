@@ -22,7 +22,8 @@ angular
 				"jobTitle": "SGXU Technology Associate",
 				"jobDescription": "",
 				"duration": "3 Months"
-			}
+			
+			ctrl.message = "Clicked"
 				
 		}
     /**

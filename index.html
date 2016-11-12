@@ -11,7 +11,7 @@
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container" ng-app>
+    <div class="container" ng-app="app" >
         <form class="form-signin">
             <h2 class="form-signin-heading">What you type here:</h2>
 
@@ -20,13 +20,15 @@
             <h2 class="form-signin-heading">It will also be shown below:</h2>
             <input type="text" class="sr-only">{{data.input}}</label>
         </form>
-        <button>
+        <div class= "button-view" ng-controller="SlidesController">
+        <button ng-click="ctrl.$onInit">
 			<a href="#slides.html"/>
 			Experience
 			</a>
+			<span ng-bind="ctrl.message"></span>
         </button>
     </div>
-
+<div></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
