@@ -6,34 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Portfolio</title>
-
+    <link href="css/main.css" rel="stylesheet"/>
     <!-- Bootstrap -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <div class="container" ng-app="app" >
-        <form class="form-signin">
-            <h2 class="form-signin-heading">What you type here:</h2>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+      
 
-            <input ng-model="data.input" type="text" class="form-control" autofocus>
-
-            <h2 class="form-signin-heading">It will also be shown below:</h2>
-            <input type="text" class="sr-only">{{data.input}}</label>
-        </form>
-        <div class= "button-view" ng-controller="SlidesController">
-        <button ng-click="ctrl.$onInit">
-			<a href="#slides.html"/>
-			Experience
-			</a>
-			<span ng-bind="ctrl.message"></span>
-        </button>
-    </div>
-<div></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <script src="bower_components/angularjs/angular.min.js"></script>
+ 
+
+</head>
+
+<body>
+<div class="header">
+  <h2 class="header-container"> James's Portfolio </h2>
+</div>
+<div class="header-list col-sm-2">
+  <ul>
+     <li><a>Resume</a></li>
+     <li><a>Courses</a></li> 
+     <li><a>Projects</a></li>
+  </ul>
+</div>
+
+ 
+<div class="main-content col-sm-7"> .col-sm-7
+ </div>
+    
 </body>
 </html>
