@@ -9,8 +9,6 @@
     <link href="css/main.css" rel="stylesheet"/>
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
-      
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -26,12 +24,44 @@
   <h2 class="header-container"> James's Portfolio </h2>
 </div>
 <div class="header-list col-sm-2">
-  <ul>
-     <li><a>Resume</a></li>
-     <li><a>Courses</a></li> 
-     <li><a>Projects</a></li>
-  </ul>
+    <ul>
+        <li id="professional-tab"><a data-toggle="tab" href="#professional">Professional Experience</a></li>
+        <li id="projects-tab"><a data-toggle="tab" href="#projects">Projects</a></li>
+        <li id="about-tab"><a data-toggle="tab" href="#about">About Me</a></li>
+    </ul>
 </div>
+
+<div class="main-content container col-sm-7">
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+            <h3>HOME</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id= "about-main" class=" tab-pane fade in active">
+            <div id="name">
+                <h1>James Eduardo Jackson</h1>
+                <h2><strong>Georgia State University</strong> B.S. Computer Science</h2>
+                <h2 id="age"> Age: 22 Years Old </h2>
+            </div>
+            <div id="email">
+                <h2>Email: jms.jcksn5@gmail.com</h2>
+            </div>
+            <div id="address">
+                <h2>Address: 1775 O'Farrel St. Apt# 20</h2>
+                <h2>City: San Francisco</h2>
+                <h2>State: California</h2>
+                <h2>Zip Code: 94115</h2>
+            </div>
+            <div id="education">
+                <h2><strong>Georgia State University</strong> B.S. Computer Science</h2>
+                //degree name
+                //relevant courses
+            </div>
+            <div id="personal-statement"></div>
+        </div>
+        <div id="professional" class="tab-pane fade"></div>
+        <div id="projects" class="tab-pane fade"></div>
+    </div>
 
  
 <div class="main-content col-sm-7"> .col-sm-7
